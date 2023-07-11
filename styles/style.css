@@ -37,6 +37,11 @@ body {
 }
 /* Our Featured Flowers */
 
+.three-img-header{
+    display: flex;
+    margin-bottom: 120px;
+    gap: 50px;
+}
 /* Optional Part */
 
 /* Hot Deal ! Sale Up To 25% Off */
@@ -57,10 +62,10 @@ body {
 .img {
   display: flex;
   gap: 20px;
-  padding: 0px 20px;
+  margin-left: 80px;
 }
 .four-img {
-  width: 300px;
+  width: 281px;
   height: 350px;
 }
 
@@ -78,14 +83,18 @@ body {
   font-weight: 800;
   padding: 80px 260px 40px 260px;
   background-image: url("../Flower Asset/Rectangle 9.png");
-  margin: 120px 50px 0px 20px;
+  margin: 120px 80px 0px 80px;
   height: 320px;
 }
+/* bonus section */
 
-/* FlowerShop */
+/* Footer */
 .footer-header {
   background: #111010;
   text-align: center;
+  height: 300px;
+  padding: 20px 350px;
+  margin-top: 100px;
 }
 .footer-title {
   color: #e55473;
