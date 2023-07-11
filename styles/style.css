@@ -36,11 +36,27 @@ body {
   background: #e55473;
 }
 /* Our Featured Flowers */
+.three-img-header {
+  
+  margin: 0px 40px 120px 40px;
+  display: flex;
+  gap: 20px;
 
-.three-img-header{
-    display: flex;
-    margin-bottom: 120px;
-    gap: 50px;
+}
+.img-one {
+  padding: 100px 40px 0px 40px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.img-two {
+  padding: 100px 40px 0px 40px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.img-three {
+  padding: 100px 40px 0px 40px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
 /* Optional Part */
 
@@ -87,7 +103,36 @@ body {
   height: 320px;
 }
 /* bonus section */
-
+.contact {
+  display: flex;
+  gap: 100px;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin: 80px;
+}
+.contact-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: #e55473;
+}
+.contact-info {
+  padding-top: 120px;
+  padding-right: 200px;
+}
+.submit-btn {
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  padding: 5px 10px;
+  background: #e55473;
+}
+.video-section {
+  padding: 120px 150px 0px 120px;
+}
+.video-title {
+  color: rgb(160, 92, 92);
+}
 /* Footer */
 .footer-header {
   background: #111010;
@@ -112,6 +157,6 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-span{
-    color: white;
+span {
+  color: white;
 }
