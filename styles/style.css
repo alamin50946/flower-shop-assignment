@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
+  margin: 0px;
 }
 /* Let's make beautiful flowers a part of your life. */
 
@@ -77,8 +78,31 @@ body {
   font-weight: 800;
   padding: 80px 260px 40px 260px;
   background-image: url("../Flower Asset/Rectangle 9.png");
-  margin:120px 50px 0px 20px;
- height: 320px;
+  margin: 120px 50px 0px 20px;
+  height: 320px;
 }
 
 /* FlowerShop */
+.footer-header {
+  background: #111010;
+  text-align: center;
+}
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-info {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
+span{
+    color: white;
+}
